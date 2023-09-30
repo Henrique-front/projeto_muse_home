@@ -1,0 +1,490 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #fff;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #000;
+}
+
+
+#space-between {
+    width: 100%;
+    height: 11.642rem;
+}
+
+.full-page {
+    background: transparent;
+    border: 0;
+    width: 118.5rem;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    z-index: 0;
+}
+
+.page-home {
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/muse_banner.jpg);
+    background-position: center -50px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+.about-page {
+    width: 100%;
+    height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.about-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    gap: 12px;
+
+}
+
+
+video {
+    width: 100%;
+    height: 99%;
+    border: 1px solid rgba(243, 117, 71, 0.651)
+}
+
+.title {
+    font-family: 'IBM Plex Sans';
+    /* font-size: 49px; */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid white; */
+}
+
+.history-data {
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    font-size: 10px;
+}
+
+.history-data .title {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 2.2px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #6d6d6d;
+}
+
+.history-data p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 12px 0 0 0;
+}
+
+.albums-section {
+    font-size: 10px;
+    display: grid;
+    gap: 10px;
+}
+
+.albums-section .title {
+    font-size: 43px;
+    text-align: left;
+    border-bottom: 1PX solid #6d6d6d;
+}
+
+.albums-grid {
+    display: grid;
+    row-gap: 3.815rem;
+    grid-template-columns: repeat(5, 225px);
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.albums-grid img {
+    width: 100%;
+    border: 1px solid #161616;
+}
+
+
+.albums-icon {
+    max-height: 266.23px;
+}
+
+
+.albums-leg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans' sans-serif;
+    text-transform: uppercase;
+    font-size: 1.728rem;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+
+.buttom-more {
+    width: 225px;
+    display: inline;
+    justify-self: center;
+    text-align: center;
+    background: transparent;
+    font-family: 'IBM Plex Sans' sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 8px;
+    border: 1px solid #6d6d6d;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    margin-top: 17px;
+    grid-column: 3;
+}
+
+.photos-section {
+    display: grid;
+    gap: 10px;
+}
+
+.photos-section .title {
+    font-size: 43px;
+    text-align: start;
+    border-bottom: 1px solid #6d6d6d;
+}
+
+.photos-container {
+    display: grid;
+    grid-template-columns: repeat(5, 225px);
+    justify-content: space-between;
+    justify-items: center;
+    row-gap: 1.25rem;
+}
+
+
+.photos-icon {
+    border: 1px solid #6b6b6b;
+    max-height: 266.23px;
+}
+
+.photos-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-section {
+    height: 100vh;
+}
+
+
+.footer-container {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    border-top: 1px solid #6d6d6d;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/MuseBristol_050619-118_%2848035812973%29.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.footer-container .title {
+    align-self: end;
+    margin: 0;
+    padding-top: 21px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+form {
+    justify-self: center;
+    padding: 0 12px;
+}
+
+input {
+    margin: 0;
+}
+
+#email {
+    text-align: center;
+    max-width: 385px;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.728rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+#submit {
+    padding: 10px;
+    max-width: 385px;
+    width: 100%;
+    height: 50px;
+    background: #6d6d6d;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.074rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border: 1px solid #6d6d6d;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.social img {
+    max-height: 50px;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    margin-right: 20px;
+}
+
+
+.footer-section img {
+    height: 30px;
+}
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+@media all and (max-width:1188px) {
+    html {
+        font-size: 50%;
+    }
+
+    .page-home {
+        height: 700px;
+    }
+    
+    .about-container {
+        grid-template-columns: auto;
+    }
+
+    .albums-grid {
+        grid-template-columns: repeat(4, 225px);
+    }
+
+    .albums-grid .buttom-more {
+        grid-column: span 2;
+        align-self: center;
+    }
+
+    .photos-container {
+        grid-template-columns: repeat(4, 225px);
+    }
+
+    .photos-container .buttom-more {
+        grid-column: span 4;
+        align-self: center;
+    }
+
+    .albums-leg {
+        font-size: 16px;
+    }
+
+}
+
+
+@media all and (max-width: 950px) {
+
+    .about-container {
+        grid-template-columns: auto;
+    }
+
+    #space-between {
+        all: unset;
+    }
+
+    
+    html {
+        font-size: 45%;
+    }
+
+    .page-home { 
+        height: 750px;
+    }
+
+    .albums-section {
+        margin-top: 150px;
+    }
+
+    .albums-grid {
+        grid-template-columns: 225px 225px 225px;
+        justify-content: center;
+        column-gap: 3.815rem;
+    }
+
+    .albums-leg {
+        font-size: 16px;
+    }
+
+    .albums-section .title {
+        text-align: center;
+    }
+
+    .albums-grid .buttom-more {
+        grid-column: 2;
+    }
+
+    .photos-container {
+        grid-template-columns: 225px 225px 225px;
+        justify-content: center;
+        column-gap: 3.815rem;
+    }
+
+    .photos-section .title {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .photos-container .buttom-more {
+        margin-bottom: 150px;
+        grid-column: 2;
+    }
+
+}
+
+@media all and (max-width: 850px) { 
+
+    html {
+        font-size: 40%;
+    }
+
+    .history-data {
+        margin-top: 35px;
+    }
+
+    .history-data p {
+        font-size: 14px;
+    }
+
+    .history-data .title {
+        font-size: 25px;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+
+    .page-home {
+        height: 600px;
+    }
+
+    html {
+        font-size: 35%;
+    }
+
+    .full-page {
+        all: unset;
+    }
+
+    video {
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .history-data p {
+        padding: 0 20px;
+    }
+
+    .footer-container {
+        background-position: -200px center;
+    }
+
+} 
+
+@media all and (max-width: 730px) {
+
+    .nav {
+    display: none;
+}
+
+
+    .container-menu {
+        height: 60px;
+    }
+    
+    .ghost {
+        height: 60px;
+    }
+
+    .albums-grid {
+        grid-template-columns: 225px 225px;
+    }
+
+    .albums-grid .buttom-more{
+        grid-column: span 2;
+    }
+
+    .photos-container {
+        grid-template-columns: 225px 225px;
+    }
+
+    .photos-container .photos-icon:nth-child(15) {
+        display: none;
+    }
+
+    .photos-container .buttom-more {
+        grid-column: span 2;
+    }
+
+}
+
+@media all and (max-width:480px) {
+
+
+    .page-home {
+        height: 400px;
+        background-position: top center;
+        background-size: contain;
+    }
+
+    .albums-grid {
+        grid-template-columns: 225px;
+    }
+
+    .albums-grid .buttom-more {
+        grid-column: 1;
+    }
+
+    .photos-container {
+        grid-template-columns: 225px;
+    }
+
+    .photos-container .buttom-more {
+        grid-column: 1;
+    }
+
+    .footer-container {
+        background-position: -50px center;
+    }
+
+}
